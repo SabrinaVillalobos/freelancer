@@ -1,255 +1,220 @@
-/* colors
+/* paleta de colores
 #2c3e50, #18bc9c, #212529. */
 
 body {
-	padding:0;
-	margin:0;
-	width: 100%;
-	background-color: #fff;
-	height: 800px;
-	font-weight: 700;
-	font-family: Montserrat, sans-serif;
+    padding: 0; /*normalizacion del cuerpo*/
+    margin: 0; del cuerpo*/
+    width: 100%;
+    background-color: #fff;
+    height: 800px;
+    font-weight: 700;
+    font-family: Montserrat, sans-serif;
 }
-
 .nav {
-	position: fixed;
-	z-index: 1;
-	width: 100%;
-	background-color: #2c3e50;
-	height: 108px;
+    position: fixed; /*fixed para que la barra de navegacion quede fija al hacer scroll*/
+    z-index: 1;
+    width: 100%;
+    background-color: #2c3e50;
+    height: 108px;
 }
-
 .title {
-	position: absolute;
-	text-decoration: none;
-	text-transform: uppercase;
-	color: #fff;
-	display: inline-block;
+    position: absolute;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    display: inline-block;
     padding-top: 10px;
     font-size: 32px;
-    left:9%;
-    top:23%;
+    left: 9%;
+    top: 23%;
 }
-
 .nav li a:hover {
-	color:#18bc9c;
+    color: #18bc9c;
 }
-
 .nav li {
-	list-style-type: none;
+    list-style-type: none; /*quita los puntos del lado izquierdo de las listas*/
 }
-
 .nav li a {
-	position: relative;
-	text-decoration: none;
-	float:right;
-	font-size: 17px;
-	color: #fff;
-	padding:7px;
-	right: 9%;
-	top:15px;
-	text-transform: uppercase;
-	font-weight: 700;
-	font-family: Montserrat, sans-serif;
+    position: relative;
+    text-decoration: none; /*lo use para quitar el underline del texto*/
+    float: right;
+    font-size: 17px;
+    color: #fff;
+    padding: 7px;
+    right: 9%;
+    top: 15px;
+    text-transform: uppercase;
+    font-weight: 700; /*uno de los tamaños ya predeterminados por Google Fonts, hay que cargarlos en el link del html para que funcionen*/
+    font-family: Montserrat, sans-serif;
 }
-
 .firstbox {
-	height: 780px;
-	background-color:#18bc9c;
-	width: 100%;
+    height: 780px;
+    background-color: #18bc9c;
+    width: 100%;
 }
-
 div#profile img {
-	position: relative;
-	display: inline-block;
-	left:41%;
-	padding-top: 15%;
+    position: relative;
+    display: inline-block;
+    left: 41%;
+    padding-top: 15%;
 }
-
 h2 {
-	position: relative;
-	color: #fff;
-	font-size: 75px;
-	text-transform: uppercase;
-	padding:0;
-	margin:0;
-	width:100%;
-	text-align: center;
-	padding-top: 2%
-
+    position: relative;
+    color: #fff;
+    font-size: 75px;
+    text-transform: uppercase; /*transforma el texto en Mayúscula*/
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    padding-top: 2%
 }
-
 .webdev {
-	position: relative;
-	color: #fff;
-	font-size: 28px;
-	padding:0;
-	margin:0;
-	width:100%;
-	text-align: center;
-	padding-top: 5%;
-	font-weight: lighter;
-	font-family: 'Lato', sans-serif;
+    position: relative;
+    color: #fff;
+    font-size: 28px;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    padding-top: 5%;
+    font-weight: lighter;
+    font-family: 'Lato', sans-serif;
 }
-
 .star1 {
-  text-align: center;
-  width: 252px;
-  left: 550px;
-  position: absolute;
-  color: #fff;
-  font-size: 30px;
-  padding-top: 15px;
+    text-align: center;
+    width: 252px;
+    left: 550px;
+    position: absolute;
+    color: #fff;
+    font-size: 30px;
+    padding-top: 15px;
 }
-
 .star1 span {
-  display: inline-block;
-  vertical-align: middle;
+    display: inline-block;
+    vertical-align: middle;
 }
-
 .outer-line {
-  width: 40%;
-  border-bottom: 5px solid #fff;
+    width: 40%;
+    border-bottom: 5px solid #fff;
 }
-
 .secondbox {
-	display: inline-block;
-	height: 883px;
-	width: 100%;
-	background-color: #fff;
-	position: absolute;
+    display: inline-block;
+    height: 883px;
+    width: 100%;
+    background-color: #fff;
+    position: absolute;
 }
-
 h3 {
-	position: relative;
-	color:#212529;
-	font-size: 45px;
-	letter-spacing: 2px;
-	text-align: center;
-	top:7%;
+    position: relative;
+    color: #212529;
+    font-size: 45px;
+    letter-spacing: 2px;
+    text-align: center;
+    top: 7%;
 }
-
 .star2 {
-  text-align: center;
-  width: 252px;
-  left: 550px;
-  position: absolute;
-  color: #2C3E50;
-  font-size: 30px;
-  padding-top: 15px;
+    text-align: center;
+    width: 252px;
+    left: 550px;
+    position: absolute;
+    color: #2C3E50;
+    font-size: 30px;
+    padding-top: 15px;
 }
-
 .star2 span {
-  display: inline-block;
-  vertical-align: middle;
+    display: inline-block;
+    vertical-align: middle;
 }
-
 .outer-line2 {
-  width: 40%;
-  border-bottom: 5px solid #2C3E50;
+    width: 40%;
+    border-bottom: 5px solid #2C3E50;
 }
-
 .images {
-	position: relative;
-	width: 1142px;
+    position: relative;
+    width: 1142px;
     height: auto;
-    left:117px;
-    top:7%;
+    left: 117px;
+    top: 7%;
 }
-
-
 .images img {
     width: 351px;
     height: auto;
-    padding:16px;
+    padding: 16px;
     cursor: pointer;
 }
-
-div.lodge{
-position: absolute;
+div.lodge {
+    position: absolute;
 }
-
 div.cake {
-	position: absolute;
-	left:380px;
-	top:1px;
+    position: absolute;
+    left: 380px;
+    top: 1px;
 }
-
 div.circus {
-	position: absolute;
-	left:760px;
-	top:1px;
+    position: absolute;
+    left: 760px;
+    top: 1px;
 }
-
-div.game{
-position: absolute;
-top:290px;
-
+div.game {
+    position: absolute;
+    top: 290px;
 }
-
 div.safe {
-	position: absolute;
-	left:380px;
-	top:290px;
+    position: absolute;
+    left: 380px;
+    top: 290px;
 }
-
 div.submarine {
-	position: absolute;
-	left:760px;
-	top:290px;
+    position: absolute;
+    left: 760px;
+    top: 290px;
 }
-
 .thirdbox {
-	height: 578px;
-	width: 100%;
-	background-color: #18BC9C;
-	position: absolute;
-	top:1663px;
+    height: 578px;
+    width: 100%;
+    background-color: #18BC9C;
+    position: absolute;
+    top: 1663px;
 }
-
 .about h4 {
-	z-index: 2;
-	font-size: 50px;
-	color: #fff;
-	text-align: center;
-	padding-top:30px;
-	display: block;
+    z-index: 2;
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+    padding-top: 30px;
+    display: block;
 }
-
 .star3 {
-  text-align: center;
-  width: 252px;
-  left: 550px;
-  position: absolute;
-  color: #fff;
-  font-size: 30px;
-  top:154px;
+    text-align: center;
+    width: 252px;
+    left: 550px;
+    position: absolute;
+    color: #fff;
+    font-size: 30px;
+    top: 154px;
 }
-
 .star3 span {
-  display: inline-block;
-  vertical-align: middle;
+    display: inline-block;
+    vertical-align: middle;
 }
-
 .outer-line3 {
-  width: 40%;
-  border-bottom: 5px solid #fff;
+    width: 40%;
+    border-bottom: 5px solid #fff;
 }
-
-.aboutext{
-    column-count: 2;
+.aboutext {
+    column-count: 2; /*cuantas columnas aparecen en el texto*/
     width: 734px;
     height: 175px;
     position: absolute;
-    left:305px;
-    color:#fff;
+    left: 305px;
+    color: #fff;
     font-family: 'Lato', sans-serif;
     font-size: 20px;
     font-weight: lighter;
     line-height: 28px;
     top: 1880px;
 }
-
 .button {
     background-color: #18BC9C;
     border: solid;
@@ -267,63 +232,52 @@ div.submarine {
     font-size: 18px;
     font-weight: 600;
 }
-
 .dibutton {
-	top:50px;
+    top: 50px;
 }
-
-.button:hover{
-	background-color:#fff;
-	color: #18bc9c;
+.button:hover {
+    background-color: #fff;
+    color: #18bc9c;
 }
-
 a.button {
-	position: relative;
-	left:42%;
-	top:420px;
-	font-family: 'Lato', sans-serif;
-	top:1150px;
+    position: relative;
+    left: 42%;
+    top: 420px;
+    font-family: 'Lato', sans-serif;
+    top: 1150px;
 }
-
 .fourthbox {
-	height: 999px;
-	width: 100%;
-	background-color: #fff;
-	position: absolute;
-	top:2241px;
+    height: 999px;
+    width: 100%;
+    background-color: #fff;
+    position: absolute;
+    top: 2241px;
 }
-
 .star4 {
-  text-align: center;
-  width: 252px;
-  left: 550px;
-  position: absolute;
-  color: #2C3E50;
-  font-size: 30px;
-  top:170px;
+    text-align: center;
+    width: 252px;
+    left: 550px;
+    position: absolute;
+    color: #2C3E50;
+    font-size: 30px;
+    top: 170px;
 }
-
 .star4 span {
-  display: inline-block;
-  vertical-align: middle;
+    display: inline-block;
+    vertical-align: middle;
 }
-
 .outer-line4 {
-  width: 40%;
-  border-bottom: 5px solid #2C3E50;
-
+    width: 40%;
+    border-bottom: 5px solid #2C3E50;
 }
-
-div.contact{
-	color:#212529;
-	font-size: 45px;
-	text-align: center;
-	display:block;
-	padding-top: 111px;
+div.contact {
+    color: #212529;
+    font-size: 45px;
+    text-align: center;
+    display: block;
+    padding-top: 111px;
 }
-
 input[type=text] {
-
     width: 640px;
     padding: 12px 20px;
     margin: 8px;
@@ -332,58 +286,54 @@ input[type=text] {
     border-bottom: 1px solid #CCD0D3;
     outline: none;
 }
-
-input, select, textarea {
-color: #5A5057; /*changes the color from input on text area*/
+input,
+select,
+textarea {
+    color: #5A5057;
+    /*cambia el color del input(las letras que ingresa el usuario)*/
 }
-
 form {
-	position: absolute;
-	width: 640px;
-	left:30%;
-	display: block;
-	font-family: 'Lato', sans-serif;
-	font-size: 25px;
-	font-weight: lighter;
-	top:2480px;
-	left: 280px;
-	padding-bottom: 150px;
-	box-shadow: none;
+    position: absolute;
+    width: 640px;
+    left: 30%;
+    display: block;
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    font-weight: lighter;
+    top: 2480px;
+    left: 280px;
+    padding-bottom: 150px;
+    box-shadow: none; /*quita la sombra de las cajas del formulario*/
 }
-
 input#form {
-	font-family: 'Lato', sans-serif;
-	font-size: 23px;
-	width: 670px;
+    font-family: 'Lato', sans-serif;
+    font-size: 23px;
+    width: 670px;
 }
-
 .textarea {
-	position: relative;
-	box-shadow: none;
+    position: relative;
+    box-shadow: none;
     resize: auto;
     cursor: auto;
     border: 0px;
     border-bottom: 1px solid;
     font-family: monospace;
     border-color: #CCD0D3;
-    top:1875px;
+    top: 1875px;
     width: 733px;
     height: 200px;
-    outline: none; /*removes the border that appears when
-    clicking textarea*/
+    outline: none;/*quita el borde que aparece al hacer clock en el area de texto*/
 }
-
-textarea#message.textarea{
-	left: 300px;
-	font-size: 23px;
-	font-family: 'Lato', sans-serif;
+textarea#message.textarea {
+    left: 300px;
+    font-size: 23px;
+    font-family: 'Lato', sans-serif;
 }
-
 a.sendbutton {
-	position: absolute;
-	left:23%;
-	top:3100px;
-	background-color: #18bc9c;
+    position: absolute;
+    left: 23%;
+    top: 3100px;
+    background-color: #18bc9c;
     color: white;
     padding: 12px 20px;
     text-align: center;
@@ -395,151 +345,132 @@ a.sendbutton {
     font-size: 18px;
     font-weight: 600;
 }
-
 a.sendbutton:hover {
-	background-color: #128F76;
+    background-color: #128F76;
 }
-
 .fifthbox {
-	height: 341px;
-	width: 100%;
-	background-color: #2C3E50;
-	position: absolute;
-	top:3240px;
+    height: 341px;
+    width: 100%;
+    background-color: #2C3E50;
+    position: absolute;
+    top: 3240px;
 }
-
 .location {
-	height: 177px;
-	width: 298px;
-	position: absolute;
-	left: 150px;
-	top: 40px;
-	color: #fff;
-	font-family: 'Lato', sans-serif;
-	text-align: center;
-	font-size: 20px;
-	line-height: 7px;
-	font-weight: lighter;
+    height: 177px;
+    width: 298px;
+    position: absolute;
+    left: 150px;
+    top: 40px;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    line-height: 7px;
+    font-weight: lighter;
 }
-
 .location h6 {
-	font-size: 27px;
-	padding:30px;
-	margin:0;
-	font-weight: bold;
-	font-family: Montserrat, sans-serif;
+    font-size: 27px;
+    padding: 30px;
+    margin: 0;
+    font-weight: bold;
+    font-family: Montserrat, sans-serif;
 }
-
 .around {
-	height: 177px;
-	width: 298px;
-	position: absolute;
-	left: 520px;
-	top: 40px;
-	color: #fff;
-	font-family: 'Lato', sans-serif;
-	text-align: center;
-	font-size: 20px;
-	line-height: 7px;
-	font-weight: lighter;
+    height: 177px;
+    width: 298px;
+    position: absolute;
+    left: 520px;
+    top: 40px;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    line-height: 7px;
+    font-weight: lighter;
 }
-
 .around h6 {
-	font-size: 27px;
-	padding-top:30px;
-	margin:0;
-	font-weight: bold;
-	font-family: Montserrat, sans-serif;
+    font-size: 27px;
+    padding-top: 30px;
+    margin: 0;
+    font-weight: bold;
+    font-family: Montserrat, sans-serif;
 }
-
 .aboutfree {
-	height: 177px;
-	width: 330px;
-	position: absolute;
-	left: 890px;
-	top: 40px;
-	color: #fff;
-	font-family: 'Lato', sans-serif;
-	text-align: center;
-	font-size: 20px;
-	line-height: 27px;
-	font-weight: lighter;
+    height: 177px;
+    width: 330px;
+    position: absolute;
+    left: 890px;
+    top: 40px;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: lighter;
 }
-
 .aboutfree h6 {
-	font-size: 27px;
-	margin:0;
-	font-weight: bold;
-	font-family: Montserrat, sans-serif;
-	padding-top:24px;
-	padding-bottom: 14px;
+    font-size: 27px;
+    margin: 0;
+    font-weight: bold;
+    font-family: Montserrat, sans-serif;
+    padding-top: 24px;
+    padding-bottom: 14px;
 }
-
 .aboutfree a {
-	color:#18bc9c;
-	text-decoration: none;
+    color: #18bc9c;
+    text-decoration: none;
 }
-
 .aboutfree a:hover {
-	color:#18bc9c;
-	text-decoration: underline;
+    color: #18bc9c;
+    text-decoration: underline;
 }
-
 .copy {
-	color:#fff;
-	font-family: 'Lato', sans-serif;
-	display: block;
-	text-align: center;
-	padding-top:300px;
-	font-weight: lighter; 
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    display: block;
+    text-align: center;
+    padding-top: 300px;
+    font-weight: lighter;
 }
-
 .btnout {
-	font-size: 20px;
-	line-height: 46px;
-	display: inline-block;
-	width: 46px;
-	height: 46px;
-	text-align: center;
-	border: solid 2px #fff;
-	border-radius: 100%;
-	font-size: 20px;
-	font-family: 'Lato', sans-serif;
-	color:#fff;
+    font-size: 20px;
+    line-height: 46px;
+    display: inline-block;
+    width: 46px;
+    height: 46px;
+    text-align: center;
+    border: solid 2px #fff;
+    border-radius: 100%;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    color: #fff;
 }
-
 .btnout:hover {
-	background-color: white;
-	color:#18bc9c;
+    background-color: white;
+    color: #18bc9c;
 }
-
 div.buttonfac {
-	position: absolute;
-	left: 530px;
-	top:128px;
+    position: absolute;
+    left: 530px;
+    top: 128px;
 }
-
 div.buttongoo {
-	position: absolute;
-	left: 588px;
-	top:128px;
+    position: absolute;
+    left: 588px;
+    top: 128px;
 }
-
-
 div.buttontwi {
-	position: absolute;
-	left: 646px;
-	top:128px;
+    position: absolute;
+    left: 646px;
+    top: 128px;
 }
-
 div.buttonlin {
-	position: absolute;
-	left: 704px;
-	top:128px;
+    position: absolute;
+    left: 704px;
+    top: 128px;
 }
-
 div.buttondri {
-	position: absolute;
-	left: 762px;
-	top:128px;
+    position: absolute;
+    left: 762px;
+    top: 128px;
 }

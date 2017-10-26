@@ -1,80 +1,40 @@
-# Freelancer
-
-* **Track:** _Common Core_
-* **Curso:** _Creando tu primer sitio web interactivo_
-* **Unidad:** _Maquetado web con HTML & CSS_
-
+# Reto Freelancer
 ***
 
-Para completar este reto, hemos creado este repositorio boilerplate (plantilla
-inicial) con todos los recursos que necesitas. Esto incluye imágenes y
-estructura de carpetas y archivos donde colocarás tu código.
-
-## Flujo de trabajo
-
-1. Debes realizar un [**fork**](https://gist.github.com/ivandevp/1de47ae69a5e139a6622d78c882e1f74)
-   de este repositorio.
-
-2. Luego deberás **clonar** tu fork en tu máquina. Recuerda que el comando a usar
-   es `git clone` y su estructura normalmente se ve así:
-
-   ```bash
-   git clone https://github.com/<nombre-de-usuario>/freelancer.git
-   ```
-
-## Objetivo
-
-El reto consiste en replicar el sitio de **Freelancer**, este será el resultado
-a lograr:
+Para este reto se pidio replicar (maquetado non responsive ) la pagina "Freelancer", el resultado debía ser el siguiente:
 
 ![Freelancer Website](docs/fullpage.png)
+## Flujo de trabajo
 
-## Consideraciones
+Para empezar, en mi archivo .html linkee mi main.css, Font Awesome(con sus respectivos tamaños ya predeterminados por la página) y las fuentes Montserrat y Lato.
+ Luego dividí mi pagina en 5 cajas principales (divs) que me ayudarían a previzualizar la distribución de los elementos en la pagina.
+ A cada div caja principal (nombrados firsbox, secondbox, thirdbox etc...)les asigné un color de fondo llamativo (rojo, azul, verde) que me servía para poder ajustar las dimensiones. Una vez logradas las medidas, quitaba el color de fondo guía.
+ Creé el header con una lista desordenada, luego el resto del cuerpo con la primera caja principal.
+ Para afrontar el problema de la estrella entre lineas, hice tres span dentro de un div, dos para las lineas y uno para la estrella.
+ La parte del portafolio es mi caja 2, para posicionar las imagenes las puse en divs con posición absoluta. 
+ Para el efecto de hover que muestra otra imágen use el atributo "onmouseover", que se activa cuando el puntero del ratón pasa sobre la imagen. Ejemplo de sintaxis:
 
-* Encontrarás un archivo base `index.html` en el cual deberás escribir la
-  estructura de tu proyecto y enlazar tus archivos de estilos (CSS).
+####Mouse sobre el gatito Pusheen para ver el efecto.
+####HTML code
+```html 
+<img name= "imagen1"src="images/logo.gif" onmouseOver="alert('¡Es Leviósa no Leviosaaaaá!)">
+```
+ 
+< img name= "imagen1"src="images/logo.gif" onmouseOver="alert('¡Es Leviósa no Leviosaaaaá!)">
 
-* En la carpeta `css` tendrás un archivo base `main.css` donde agregarás los
-  estilos necesarios para tu proyecto.
+La parte about es mi caja 3, el texto esta en un div con 2 columnas asignadas en el css. 
 
-* Dentro de la carpeta `assets` se encuentra la carpeta `images` donde
-  encontrarás todas las imágenes necesarias para completar tu proyecto.
+Para el formulario seguí las instruccipones de W3schools:
 
-* Deberás **actualizar el archivo `README.md`** explicando el contenido de tu
-  repositorio.
+#[Cómo hacer formularios por w3school](https://www.w3schools.com/css/css_form.asp "Formularios")
 
-* Esta web utiliza 2 tipografías: `Montserrat` y `Lato`.
+Para hacer los botones, me guié con mi trabajo "Tipografias-e-iconos".
+Para los iconos de Font Awesome rodeados por un círculo, llegué a su página de ejemplos donde estaba el código para hacerlo.
 
-* La paleta de colores puedes obtenerla inspeccionado el sitio original, pero
-  para ganar tiempo, puedes usar los siguientes: `#2c3e50`, `#18bc9c`,
-  `#212529`.
+#[Icónos en circulos de Font Awesome](http://fontawesome.io/examples/ "iconos en circulos")
 
-* Los íconos de redes sociales puedes obtenerlos de [Font Awesome](http://fontawesome.io/).
+Además encontré este ejemplo muy explicativo de como aplicar el código.
 
-* Para este reto, encontrarás ciertas cosas que probablemente aun no has visto
-  en clase (formularios). No te preocupes, estamos seguros que lo afrontarás con
-  éxito, de igual forma aquí unos tips:
+#[Ejemplo](http://jsfiddle.net/sampatbadhe/ocftsLfe/ "ejemplo")
 
-  - Para el formulario, revisa las etiquetas como `form`, `input`, `button`.
-
-* El subrayado que incluye la estrella en las diversas secciones del sitio, en
-  la web original se hace con un ícono y pseudoelementos (`:after`, `:before`),
-  es un reto entretenido, sin embargo, no trates de enfocarte en esa parte desde
-  un inicio ya que no es el objetivo principal del reto :)
-
-* Puedes ver el [sitio original](https://blackrockdigital.github.io/startbootstrap-freelancer/)
-  para que te des una idea de como debe quedar.
-
-  > Nota: El sitio original tiene ciertos efectos y funcionalidades que
-están fuera del alcance de este reto. Enfócate en obtener la maquetación
-lo más parecido posible, usando lo aprendido en clase ;)
-
-## A tener en cuenta
-
-Este reto será evaluado sobre lo siguiente:
-
-* Pixel perfect (replicar el diseño con exactitud)
-* Nombramiento de clases, id, etc
-* Indentación
-* Archivo `README.md` actualizado y correctamente redactado
-* Uso de comentarios para hacer tu código más legible
+Para finalizar, revisé mi código HTML en [Validador de HTML, freeformatter](https://www.freeformatter.com/html-validator.html "validador HTML") y mi código CSS en [Validador de CSS, Jigsaw.w3](https://jigsaw.w3.org/css-validator/#validate_by_inputl "validador CSS").
