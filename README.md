@@ -17,7 +17,7 @@ Para empezar, en mi archivo .html linkee mi main.css, Font Awesome(con sus respe
 ####Mouse sobre el gatito Pusheen para ver el efecto.
 ####HTML code
 ```html 
-<img name= "imagen1"src="images/logo.gif" onmouseOver="alert('¡Es Leviósa no Leviosaaaaá!)">
+<img name= "PusheenPothaa"src="assets/images/Pusheenpotah" onmouseOver="alert('¡Es Leviósa no Leviosaaaaá!)">
 ```
  
 < img name= "imagen1"src="images/logo.gif" onmouseOver="alert('¡Es Leviósa no Leviosaaaaá!)">
@@ -26,15 +26,15 @@ La parte about es mi caja 3, el texto esta en un div con 2 columnas asignadas en
 
 Para el formulario seguí las instruccipones de W3schools:
 
-#[Cómo hacer formularios por w3school](https://www.w3schools.com/css/css_form.asp "Formularios")
+[Cómo hacer formularios por w3school](https://www.w3schools.com/css/css_form.asp "Formularios")
 
 Para hacer los botones, me guié con mi trabajo "Tipografias-e-iconos".
 Para los iconos de Font Awesome rodeados por un círculo, llegué a su página de ejemplos donde estaba el código para hacerlo.
 
-#[Icónos en circulos de Font Awesome](http://fontawesome.io/examples/ "iconos en circulos")
+[Icónos en circulos de Font Awesome](http://fontawesome.io/examples/ "iconos en circulos")
 
 Además encontré este ejemplo muy explicativo de como aplicar el código.
 
-#[Ejemplo](http://jsfiddle.net/sampatbadhe/ocftsLfe/ "ejemplo")
+[Ejemplo](http://jsfiddle.net/sampatbadhe/ocftsLfe/ "ejemplo")
 
 Para finalizar, revisé mi código HTML en [Validador de HTML, freeformatter](https://www.freeformatter.com/html-validator.html "validador HTML") y mi código CSS en [Validador de CSS, Jigsaw.w3](https://jigsaw.w3.org/css-validator/#validate_by_inputl "validador CSS").
