@@ -15,8 +15,6 @@ Para empezar, en mi archivo .html linkee mi main.css, Font Awesome(con sus respe
  La parte del portafolio es mi caja 2, para posicionar las imágenes las puse en divs con posición absoluta. 
  Para el efecto de hover que muestra otra imagen use el atributo "onmouseover", que se activa cuando el puntero del ratón pasa sobre la imagen. Ejemplo de sintaxis:
 
-##HTML code
-***
 ```html 
 <img name= "PusheenPothaa"src="assets/images/Pusheenpotah" onmouseOver="alert('¡Es Leviósa no Leviosaaaaá!)">
 ```
