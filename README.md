@@ -9,7 +9,7 @@ Para este reto se pidió replicar (maquetado non responsive ) la pagina "Freelan
 
 Para empezar, en mi archivo .html linkee mi main.css, Font Awesome(con sus respectivos tamaños ya predeterminados por la página) y las fuentes Montserrat y Lato.
  Luego dividí mi pagina en 5 cajas principales (divs) que me ayudarían a pre visualizar la distribución de los elementos en la pagina.
- A cada div caja principal (nombrados firsbox, secondbox, thirdbox etc...)les asigné un color de fondo llamativo (rojo, azul, verde) que me servía para poder ajustar las dimensiones. 
+ A cada div caja principal (nombrados firstbox, secondbox, thirdbox etc...)les asigné un color de fondo llamativo (rojo, azul, verde) que me servía para poder ajustar las dimensiones. 
 
  Una vez logradas las medidas, quitaba el color de fondo guía.
 
